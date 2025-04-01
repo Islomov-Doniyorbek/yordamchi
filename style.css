@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    position: relative;
+    width: 90%;
+    min-height: 80vh;
+}
+.container .davomat, .container .active, .container .homework {
+    position: relative;
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px 15px;
+    border-radius: 8px;
+    background: rgb(123, 149, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.title {
+    font-size: 22px;
+    color: lime;
+    text-align: center;margin: 10px 0;
+}
+.sectionTitle {
+    font-size: 26px;
+    color: lime;
+    text-align: center;
+    margin: 10px 0;
+}
+form {
+    padding: 8px 10px;
+    border-radius: 8px;
+    background: var(--clr);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+ol {
+    width: 100%;
+    list-style: none;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+ol li {
+    padding: 3px 5px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    color: azure;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px outset lime;
+    border-left: 2px outset lime;
+}
+li p {
+    width: 70%;
+    letter-spacing: 1.5px;
+}
+li button {
+    padding: 3px 5px;
+    border-radius: 5px;
+    border: 2px solid lime;
+    background: red;
+    outline: none;
+    font-size: 14px;
+    cursor: pointer;
+    color: azure;
+    font-weight: 800;
+}
+li input {
+    cursor: pointer;
+    margin-right: 15px;
+    font-size: 16px;
+    background: transparent;
+    color: azure;
+    text-align: center;
+}
+form #send {
+    padding: 8px 10px;
+    font-size: 16px;
+    font-weight: 600;
+    background: lime;
+    color: green;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
